@@ -1,0 +1,16 @@
+{
+  "name": "saweria-roblox-relay",
+  "version": "1.0.0",
+  "description": "Server perantara Saweria webhook ke Roblox MessagingService",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "saweria-webhook-express": "*"
+  }
+}
